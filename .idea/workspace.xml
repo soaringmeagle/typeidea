@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1oHLvxMpQQlVdbSSSHE2tdvItj4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="" />
+      <created>1612938803945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612938803945</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="472" y="253" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1612939109527" />
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612939479659">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1612939479659" />
+    <state x="592" y="327" width="256" height="280" key="Github.ShareDialog" timestamp="1612959170029">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="592" y="327" width="256" height="280" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1612959170029" />
+    <state x="316" y="152" width="998" height="708" key="SettingsEditor" timestamp="1612959200778">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="316" y="152" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1612959200778" />
+  </component>
+</project>
