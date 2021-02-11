@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="拆分settings">
+    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="创建blogApp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613010064988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="创建blogApp">
+      <created>1613017626388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613017626388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -131,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加需求分析文档" />
     <MESSAGE value="拆分settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="拆分settings" />
+    <MESSAGE value="创建blogApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建blogApp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
@@ -154,9 +161,19 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="316" y="152" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1612959200778" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613010069182">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613017632800">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613010069182" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613017632800" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/typeidea/config/models.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
