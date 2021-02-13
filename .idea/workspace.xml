@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm git的使用">
+    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm调试">
+      <change afterPath="$PROJECT_DIR$/docs/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CodingLog" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CodingLog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613192342210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CodingLog,pycharm调试">
+      <created>1613210078467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613210078467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -152,21 +161,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加需求分析文档" />
     <MESSAGE value="CodingLog,pycharm git的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodingLog,pycharm git的使用" />
+    <MESSAGE value="CodingLog,pycharm调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodingLog,pycharm调试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="472" y="253" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1612939109527" />
-    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613209889554">
+    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613209956292">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1613209889554" />
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612939479659">
+    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1613209956292" />
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613220867064">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1612939479659" />
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1613220867064" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1613209875755">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -183,9 +193,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="214" y="83" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1613191904904" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613192343820">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613210080747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613192343820" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613210080747" />
   </component>
 </project>
