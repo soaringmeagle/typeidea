@@ -19,22 +19,16 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:add-blog-app-model" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="创建configApp,comentApp">
-      <change afterPath="$PROJECT_DIR$/docs/CodingLog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
+    <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="添加需求分析文档">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CodingLog" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CodingLog" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +42,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="add-blog-app-model" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oHLvxMpQQlVdbSSSHE2tdvItj4" />
@@ -65,7 +57,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -98,35 +89,7 @@
       <option name="project" value="LOCAL" />
       <updated>1612966479625</updated>
     </task>
-    <task id="LOCAL-00003" summary="拆分settings">
-      <created>1613010064988</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613010064988</updated>
-    </task>
-    <task id="LOCAL-00004" summary="创建blogApp">
-      <created>1613017626388</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613017626388</updated>
-    </task>
-    <task id="LOCAL-00005" summary="创建configApp,comentApp">
-      <created>1613027053880</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1613027053880</updated>
-    </task>
-    <task id="LOCAL-00006" summary="创建configApp,comentApp">
-      <created>1613027106594</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1613027106594</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -143,7 +106,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="add-blog-app-model" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -158,20 +121,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加需求分析文档" />
-    <MESSAGE value="拆分settings" />
-    <MESSAGE value="创建blogApp" />
-    <MESSAGE value="创建configApp,comentApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建configApp,comentApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加需求分析文档" />
   </component>
   <component name="WindowStateProjectService">
     <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="472" y="253" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1612939109527" />
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613187223433">
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612939479659">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1613187223433" />
+    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1612939479659" />
     <state x="592" y="327" width="256" height="280" key="Github.ShareDialog" timestamp="1612959265498">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -180,27 +140,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="465" y="134" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1612959304222" />
-    <state x="316" y="152" width="998" height="708" key="SettingsEditor" timestamp="1612959200778">
+    <state x="214" y="83" width="998" height="708" key="SettingsEditor" timestamp="1613191858081">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="316" y="152" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1612959200778" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613027117283">
+    <state x="214" y="83" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1613191858081" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613188193640">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613027117283" />
-    <state x="422" y="28" width="596" height="804" key="find.popup" timestamp="1613184004676">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="422" y="28" width="596" height="804" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1613184004676" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/typeidea/config/models.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613188193640" />
   </component>
 </project>

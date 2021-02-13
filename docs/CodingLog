@@ -1,2 +1,13 @@
+2020.02.10 Pycharm中Git的使用
+           1.下载安装Git
+             https://git-scm.com/download/win下载git.exe，安装
+           2.Pycharm中设置Git
+             File->Setting->Version Control->Git,设置 Path to Git executable:"C:\Program Files\Git\bin\git.exe"
+           3.Pycharm中设置GitHub
+             File->Setting->Version Control->GitHub,“+” 添加github账户信息
+           4.运行Git命令
+             VCS->Import into Version Control
+             VCS->Get from Version Control
+             VCS_>Git  git相关命令
 2021.02.13 解决python相对导入出现错误："Attempted relative import beyond top-level"
            pycharm中“typediea\typediea”  右键->Mark Directory as->Sources Root
