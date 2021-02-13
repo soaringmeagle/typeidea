@@ -1,4 +1,35 @@
-2020.02.10 Pycharm中Git的使用
+2021.02.09 Pycharm中调试Django项目
+           Run->Edit configurations
+           "+"->python,
+           Name:"xxx",
+           Script Path : "\project_name\project_namne\manage.py"
+           Parameters:"runserver"
+
+2021.02.10 Django项目创建
+           1.Pycharm新建"project_name"的project
+           2.Pycharm Terminal中:pip install Django==3.1.5
+           3.Pycharm Terminal中:django-admin startproject "project_name"
+           4.Pycharm Terminal中:python manage.py startapp "app_name"
+
+           项目结构：
+           prject_name
+               docs
+               CHANGELOG.MD
+               LICENSE
+               README.MD
+               requirements.txt
+               project_name(src)
+                   app1
+                   app2
+                   project_name
+                       settings
+                           __init__.py
+                           base.py
+                           develop.py
+                           product.py
+                   manage.py
+
+2021.02.10 Pycharm中Git的使用
            1.下载安装Git
              https://git-scm.com/download/win下载git.exe，安装
            2.Pycharm中设置Git
@@ -9,5 +40,6 @@
              VCS->Import into Version Control
              VCS->Get from Version Control
              VCS_>Git  git相关命令
+
 2021.02.13 解决python相对导入出现错误："Attempted relative import beyond top-level"
            pycharm中“typediea\typediea”  右键->Mark Directory as->Sources Root
