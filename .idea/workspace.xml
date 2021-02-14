@@ -26,12 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm调试">
+      <change afterPath="$PROJECT_DIR$/typeidea/blog/adminforms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CodingLog" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CodingLog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613224995597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="后台管理页面,admin.py">
+      <created>1613313344732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613313344732</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -172,7 +177,8 @@
     <MESSAGE value="CodingLog,pycharm git的使用" />
     <MESSAGE value="CodingLog,pycharm调试" />
     <MESSAGE value="blogApp admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="blogApp admin" />
+    <MESSAGE value="后台管理页面,admin.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台管理页面,admin.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
@@ -203,9 +209,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="214" y="83" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1613191904904" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613225003729">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613313354411">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613225003729" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613313354411" />
   </component>
 </project>
