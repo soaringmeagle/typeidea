@@ -4,6 +4,7 @@ from django.utils.html import format_html
 
 from .models import Post, Category, Tag
 from .adminforms import PostAdminForm
+from typeidea.custom_site import custom_site
 
 
 # Register your models here.
@@ -23,11 +24,18 @@ class CategoryOwnerFilter(admin.SimpleListFilter):
         return queryset
 
 
-@admin.register(Category)
+class PostInline(admin.TabularInline):  # StackInlines样式不同
+    fields = ('title', 'desc')
+    extra = 1  # 控制额外多几个
+    model = Post
+
+
+@admin.register(Category, site=custom_site)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name', 'status', 'is_nav', 'created_time', 'post_count')
     list_filter = [CategoryOwnerFilter]
     fields = ('name', 'status', 'is_nav')
+    inlines = [PostInline, ]
 
     def post_count(self, obj):
         return obj.post_set.count()
@@ -43,7 +51,7 @@ class CategoryAdmin(admin.ModelAdmin):
         return qs.filter(owner=request.user)
 
 
-@admin.register(Tag)
+@admin.register(Tag, site=custom_site)
 class TagAdmin(admin.ModelAdmin):
     list_display = ('name', 'status', 'created_time')
     fields = ('name', 'status')
@@ -53,7 +61,7 @@ class TagAdmin(admin.ModelAdmin):
         return super(TagAdmin, self).save_model(request, obj, form, change)
 
 
-@admin.register(Post)
+@admin.register(Post, site=custom_site)
 class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'desc', 'status', 'category', 'created_time', 'operator')
     list_display_links = []
@@ -103,7 +111,8 @@ class PostAdmin(admin.ModelAdmin):
     def operator(self, obj):
         return format_html(
             '<a href="{}">编辑</a>',
-            reverse('admin:blog_post_change', args=(obj.id,))
+            # reverse('admin:blog_post_change', args=(obj.id,))
+            reverse('custom_site:blog_post_change', args=(obj.id,))  # 定制site
         )
 
     operator.short_description = '操作'
