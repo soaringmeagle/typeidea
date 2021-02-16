@@ -112,7 +112,7 @@ class PostAdmin(admin.ModelAdmin):
         return format_html(
             '<a href="{}">编辑</a>',
             # reverse('admin:blog_post_change', args=(obj.id,))
-            reverse('custom_site:blog_post_change', args=(obj.id,))  # 定制site
+            reverse('cus_admin:blog_post_change', args=(obj.id,))  # 定制site
         )
 
     operator.short_description = '操作'
