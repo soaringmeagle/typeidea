@@ -26,12 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm调试">
-      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/base_admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CodingLog" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CodingLog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613456481057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="抽象admin基类base_admin.py">
+      <created>1613466609533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613466609533</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -206,7 +209,8 @@
     <MESSAGE value="CodingLog,自定义表单" />
     <MESSAGE value="定制site，分离用户模块与其它模块的管理" />
     <MESSAGE value="定制site" />
-    <option name="LAST_COMMIT_MESSAGE" value="定制site" />
+    <MESSAGE value="抽象admin基类base_admin.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象admin基类base_admin.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
@@ -237,46 +241,46 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="465" y="134" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1612959304222" />
-    <state width="1419" height="276" key="GridCell.Tab.0.bottom" timestamp="1613466025953">
+    <state width="1419" height="160" key="GridCell.Tab.0.bottom" timestamp="1613466643544">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613466025953" />
-    <state width="1419" height="276" key="GridCell.Tab.0.center" timestamp="1613466025952">
+    <state width="1419" height="160" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613466643544" />
+    <state width="1419" height="160" key="GridCell.Tab.0.center" timestamp="1613466643544">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1613466025952" />
-    <state width="1419" height="276" key="GridCell.Tab.0.left" timestamp="1613466025952">
+    <state width="1419" height="160" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1613466643544" />
+    <state width="1419" height="160" key="GridCell.Tab.0.left" timestamp="1613466643544">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1613466025952" />
-    <state width="1419" height="276" key="GridCell.Tab.0.right" timestamp="1613466025953">
+    <state width="1419" height="160" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1613466643544" />
+    <state width="1419" height="160" key="GridCell.Tab.0.right" timestamp="1613466643544">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1613466025953" />
-    <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1613458475956">
+    <state width="1419" height="160" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1613466643544" />
+    <state width="1419" height="160" key="GridCell.Tab.1.bottom" timestamp="1613466643425">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613458475956" />
-    <state width="1419" height="276" key="GridCell.Tab.1.center" timestamp="1613458475956">
+    <state width="1419" height="160" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613466643425" />
+    <state width="1419" height="160" key="GridCell.Tab.1.center" timestamp="1613466643425">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1613458475956" />
-    <state width="1419" height="276" key="GridCell.Tab.1.left" timestamp="1613458475956">
+    <state width="1419" height="160" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1613466643425" />
+    <state width="1419" height="160" key="GridCell.Tab.1.left" timestamp="1613466643425">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1613458475956" />
-    <state width="1419" height="276" key="GridCell.Tab.1.right" timestamp="1613458475956">
+    <state width="1419" height="160" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1613466643425" />
+    <state width="1419" height="160" key="GridCell.Tab.1.right" timestamp="1613466643425">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1613458475956" />
+    <state width="1419" height="160" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1613466643425" />
     <state x="214" y="83" width="998" height="708" key="SettingsEditor" timestamp="1613191904904">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="214" y="83" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1613191904904" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613456485773">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613466612516">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613456485773" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613466612516" />
     <state x="422" y="162" width="596" height="536" key="find.popup" timestamp="1613457692324">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
