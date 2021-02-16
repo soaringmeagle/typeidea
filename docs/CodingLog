@@ -68,3 +68,33 @@
 
            class XXXAdmin(admin.ModelAdmin):
                form = XXXForm
+
+2021.02.16同一页面编辑关联数据
+           class XXXInline(admin.TabularInline):
+               fields = ('field1','field2',...)
+               extra = 1
+               model = xxxModel
+
+           class XXXAdmin(admin.ModelAdmin):
+               inlines = [XXXInline,]
+
+           定制site
+           from django.contrib.admin import AdminSite
+
+           class XXXSite(AdminSite):
+               site_header = 'xxxxx'
+               site_title = 'xxxxx'
+               index_title = 'xxxxx'
+
+           xxx_site = XXXSite(name='xxx_admin')
+
+           reverse('xxx_admin:xxx_xxx_operator')
+
+           admin权限逻辑以SSO登录
+           两种方法：1.自定义AUTHENTICATION_BACKEND
+                   2.重写Django admin提供的接口
+                   has_add_permission
+                   has_change_permission
+                   has_delete_permission
+                   has_module_permission
+
