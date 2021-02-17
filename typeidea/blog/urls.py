@@ -15,11 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from blog import views
 
-from .custom_site import custom_site
+extra_post_urlpatterns = [
+    path('', views.post_list, name='post_list'),
+    path('detail/<int:post_id>/', views.post_detail, name='post_detail'),
+    path('edit/<int:post_id>/', views.post_edit, name='post_edit'),
+    path('delete/<int:post_id>/', views.post_delete, name='post_delete'),
+]
 
 urlpatterns = [
-    path('super_admin/', admin.site.urls),
-    path('admin/', custom_site.urls),
-    path('blog/', include('blog.urls'))
+    path('post/', include(extra_post_urlpatterns)),
 ]
