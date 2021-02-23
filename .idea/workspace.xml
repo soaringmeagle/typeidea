@@ -26,14 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm调试">
-      <change afterPath="$PROJECT_DIR$/typeidea/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/base_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/base_admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +61,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/typeidea/manage.py" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -189,6 +186,7 @@
     <servers />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,84 +225,6 @@
     <MESSAGE value="抽象admin基类base_admin.py" />
     <MESSAGE value="添加日志查看" />
     <option name="LAST_COMMIT_MESSAGE" value="添加日志查看" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="472" y="253" key="#Notifications" timestamp="1612939109527">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="472" y="253" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1612939109527" />
-    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613456112037">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="163" y="18" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1613456112037" />
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613220867064">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="459" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1613220867064" />
-    <state x="475" y="132" key="#xdebugger.evaluate" timestamp="1613480600860">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="475" y="132" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1613480600860" />
-    <state width="820" height="466" key="DebuggerActiveHint" timestamp="1613446308102">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="820" height="466" key="DebuggerActiveHint/0.0.1440.860@0.0.1440.860" timestamp="1613446308102" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1613209875755">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1613209875755" />
-    <state x="592" y="327" width="256" height="280" key="Github.ShareDialog" timestamp="1612959265498">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="592" y="327" width="256" height="280" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1612959265498" />
-    <state x="465" y="134" key="Github.UntrackedFilesDialog" timestamp="1612959304222">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="465" y="134" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1612959304222" />
-    <state width="1419" height="160" key="GridCell.Tab.0.bottom" timestamp="1613530606048">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613530606048" />
-    <state width="1419" height="160" key="GridCell.Tab.0.center" timestamp="1613530606048">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1613530606048" />
-    <state width="1419" height="160" key="GridCell.Tab.0.left" timestamp="1613530606048">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1613530606048" />
-    <state width="1419" height="160" key="GridCell.Tab.0.right" timestamp="1613530606048">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1613530606048" />
-    <state width="1419" height="160" key="GridCell.Tab.1.bottom" timestamp="1613530651926">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1613530651926" />
-    <state width="1419" height="160" key="GridCell.Tab.1.center" timestamp="1613530651926">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1613530651926" />
-    <state width="1419" height="160" key="GridCell.Tab.1.left" timestamp="1613530651926">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1613530651926" />
-    <state width="1419" height="160" key="GridCell.Tab.1.right" timestamp="1613530651926">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1419" height="160" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1613530651926" />
-    <state x="214" y="83" width="998" height="708" key="SettingsEditor" timestamp="1613191904904">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="214" y="83" width="998" height="708" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1613191904904" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613468133571">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613468133571" />
-    <state x="422" y="162" width="596" height="536" key="find.popup" timestamp="1613457692324">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="422" y="162" width="596" height="536" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1613457692324" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

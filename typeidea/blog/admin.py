@@ -37,7 +37,7 @@ class PostInline(admin.TabularInline):  # StackInlines样式不同
 class CategoryAdmin(BaseOwnerAdmin):
     list_display = ('name', 'status', 'is_nav', 'created_time', 'post_count')
     fields = ('name', 'status', 'is_nav')
-    inlines = [PostInline, ]
+    # inlines = [PostInline, ]
 
     def post_count(self, obj):
         return obj.post_set.count()
