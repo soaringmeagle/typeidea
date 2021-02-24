@@ -18,6 +18,32 @@ class Category(models.Model):
     owner = models.ForeignKey(User, verbose_name="作者", on_delete=models.CASCADE)
     created_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
 
+    # @classmethod
+    # def get_navs(cls):
+    #     categories = cls.objects.filter(cls.STATUS_NORMAL)  # QuerySet懒惰特性，产生二次查询
+    #     navs = categories.filter(is_nav=True)  # QuerySet懒惰特性，产生二次查询
+    #     normal_categories = categories.filter(is_nav=False)
+    #     return {
+    #         'navs': navs,
+    #         'categories': normal_categories,
+    #     }
+
+    @classmethod
+    def get_navs(cls):
+        categories = cls.objects.filter(status=cls.STATUS_NORMAL)
+        navs = []
+        normal_categories = []
+        for cate in categories:
+            if cate.is_nav:
+                navs.append(cate)
+            else:
+                normal_categories.append(cate)
+
+        return {
+            'navs': navs,
+            'categories': normal_categories,
+        }
+
     def __str__(self):
         return self.name
 
@@ -88,7 +114,8 @@ class Post(models.Model):
 
     @classmethod
     def latest_posts(cls):
-        query_set = cls.ojects.filter(status=cls.STATUS_NORMAL)
+        post_list = cls.objects.filter(status=cls.STATUS_NORMAL)
+        return post_list
 
     def __str__(self):
         return self.title

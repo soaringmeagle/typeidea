@@ -37,6 +37,7 @@ def post_list(request, category_id=None, tag_id=None):
         'tag': tag,
         'post_list': post_list,
     }
+    context.update(Category.get_navs())
     return render(request, 'blog/list.html', context=context)
     # return render(request, 'blog/list.html', context={'post_list': post_list})
     # return HttpResponse('list page for Posts')
@@ -47,7 +48,13 @@ def post_detail(request, post_id):
         post = Post.objects.get(id=post_id)
     except Post.DoesNotExist:
         post = None
-    return render(request, 'blog/detail.html', context={'post': post})
+
+    context = {
+        'post': post,
+    }
+    context.update(Category.get_navs())
+    # return render(request, 'blog/detail.html', context={'post': post})
+    return render(request, 'blog/detail.html', context=context)
 
 
 def post_edit(request, post_id):

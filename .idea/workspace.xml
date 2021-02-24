@@ -26,7 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="CodingLog,pycharm调试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614170440806</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="重构post_list视图">
+      <created>1614172394035</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614172394035</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -246,17 +259,11 @@
     <MESSAGE value="base_admin,修复bug" />
     <MESSAGE value="add db.sqlite3" />
     <MESSAGE value="修改post_list" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改post_list" />
+    <MESSAGE value="重构post_list视图" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构post_list视图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/typeidea/blog/views.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
