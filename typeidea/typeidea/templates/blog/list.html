@@ -5,7 +5,7 @@
     <title>typeidea博客系统</title>
 </head>
 <body>
-<div>
+<div>导航栏：
     {% for cate in navs %}
     <a href="category/{{cate.id}}/">{{cate.name}}</a>
     {% endfor %}
@@ -20,7 +20,7 @@
 <ul>
     {% for post in post_list %}
     <li>
-        <a href ='detail/{{post.id}}'.html>{{post.title}}</a>
+        <a href='detail/{{post.id}}' .html>{{post.title}}</a>
         <div>
             <span>作者：{{post.owner.username}}</span>
             <span>分类：{{post.category.name}}</span>
@@ -29,9 +29,17 @@
     </li>
     {% endfor %}
 </ul>
-<div>
+<hr>
+<div>分类栏：
     {% for cate in categories %}
     <a href="category/{{cate.id}}/">{{cate.name}}</a>
+    {% endfor %}
+</div>
+<hr>
+<div>侧边栏展示：
+    {% for sidebar in sidebars %}
+        <h4>{{sidebar.title}}</h4>
+        {{sidebar.content}}
     {% endfor %}
 </div>
 </body>

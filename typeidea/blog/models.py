@@ -89,6 +89,8 @@ class Post(models.Model):
     tag = models.ForeignKey(Tag, on_delete=models.CASCADE, verbose_name="标签")
     owner = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name="作者")
     created_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    pv = models.PositiveIntegerField(default=1)
+    uv = models.PositiveIntegerField(default=1)
 
     @staticmethod
     def get_by_tag(tag_id):
@@ -116,6 +118,10 @@ class Post(models.Model):
     def latest_posts(cls):
         post_list = cls.objects.filter(status=cls.STATUS_NORMAL)
         return post_list
+
+    @classmethod
+    def hot_posts(cls):
+        return cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv').only(('id', 'title',))
 
     def __str__(self):
         return self.title
