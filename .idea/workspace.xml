@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614414201725</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="整理模板，解耦硬编码">
+      <created>1614417320517</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614417320517</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -293,7 +300,8 @@
     <MESSAGE value="添加分类信息" />
     <MESSAGE value="Post添加pv,uv字段" />
     <MESSAGE value="sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="sidebar" />
+    <MESSAGE value="整理模板，解耦硬编码" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理模板，解耦硬编码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
