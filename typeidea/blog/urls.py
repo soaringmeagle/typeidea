@@ -15,14 +15,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from blog import views
+from blog.views import IndexView, CategoryView, TagView, PostDetailView
+
+# from blog import views
+
+# extra_post_urlpatterns = [
+#     path('', views.post_list, name='post_list'),
+#     path('tag/<int:tag_id>/', views.post_list, name='post_list_tag'),
+#     path('category/<int:category_id>/', views.post_list, name='post_list_category'),
+#     path('detail/<int:post_id>/', views.post_detail, name='post_detail'),
+# ]
 
 extra_post_urlpatterns = [
-    path('', views.post_list, name='post_list'),
-    path('category/<int:category_id>/', views.post_list, name='post_list'),
-    path('detail/<int:post_id>/', views.post_detail, name='post_detail'),
-    path('edit/<int:post_id>/', views.post_edit, name='post_edit'),
-    path('delete/<int:post_id>/', views.post_delete, name='post_delete'),
+    path('', IndexView.as_view(), name='post_list'),
+    path('tag/<int:tag_id>/', TagView.as_view(), name='post_list_tag'),
+    path('category/<int:category_id>/', CategoryView.as_view(), name='post_list_category'),
+    path('detail/<int:post_id>/', PostDetailView.as_view(), name='post_detail'),
 ]
 
 urlpatterns = [
