@@ -26,11 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e716497c-f50e-4202-a23b-eb8e55631c40" name="Default Changelist" comment="添加分类信息">
+      <change afterPath="$PROJECT_DIR$/typeidea/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/config/blocks/sidebar_comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/config/blocks/sidebar_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/templates/blog/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +71,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/typeidea/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/typeidea/config" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonWorkSpace\typeidea\typeidea\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PythonWorkSpace\typeidea\typeidea\typeidea" />
       <recent name="E:\PythonWorkSpace\typeidea\typeidea" />
@@ -219,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614176024252</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Post添加pv,uv字段">
+      <created>1614301162266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614301162266</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -266,10 +282,18 @@
     <MESSAGE value="修改post_list" />
     <MESSAGE value="重构post_list视图" />
     <MESSAGE value="添加分类信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加分类信息" />
+    <MESSAGE value="Post添加pv,uv字段" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post添加pv,uv字段" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/typeidea/config/models.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

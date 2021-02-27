@@ -121,7 +121,7 @@ class Post(models.Model):
 
     @classmethod
     def hot_posts(cls):
-        return cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv').only(('id', 'title',))
+        return cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv').only('id', 'title')
 
     def __str__(self):
         return self.title
