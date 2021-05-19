@@ -1,0 +1,107 @@
+2021.02.09 Pycharm中调试Django项目
+           Run->Edit configurations
+           "+"->python,
+           Name:"xxx",
+           Script Path : "\project_name\project_namne\manage.py"
+           Parameters:"runserver"
+
+2021.02.10 Django项目创建
+           1.Pycharm新建"project_name"的project
+           2.Pycharm Terminal中:pip install Django==3.1.5
+           3.Pycharm Terminal中:django-admin startproject "project_name"
+           4.Pycharm Terminal中:python manage.py startapp "app_name"
+
+           项目结构：
+           prject_name
+               docs
+               CHANGELOG.MD
+               LICENSE
+               README.MD
+               requirements.txt
+               project_name(src)
+                   app1
+                   app2
+                   project_name
+                       settings
+                           __init__.py
+                           base.py
+                           develop.py
+                           product.py
+                   manage.py
+
+2021.02.10 Pycharm中Git的使用
+           1.下载安装Git
+             https://git-scm.com/download/win下载git.exe，安装
+           2.Git 设置用户名、邮箱
+             git config --global user.name "xxxx"  (github用户名)
+             git config --global user.email "xxx@xxx.com"  (github邮箱)
+             git config -l (查看git配置)
+           3.Pycharm中设置Git
+             File->Setting->Version Control->Git,设置 Path to Git executable:"C:\Program Files\Git\bin\git.exe"
+           4.Pycharm中设置GitHub
+             File->Setting->Version Control->GitHub,“+” 添加github账户信息
+           5.运行Git命令
+             VCS->Import into Version Control
+             VCS->Get from Version Control
+             VCS->Git  git相关命令
+
+2021.02.13 解决python相对导入出现错误："Attempted relative import beyond top-level"
+           pycharm中“typediea\typediea”  右键->Mark Directory as->Sources Root
+
+2021.02.14 自定义过滤器
+           class XXXFilter(admin.SimpleListFilter):
+               title = 'xxx'
+               parameter_name = 'xxx'
+
+               overrides
+               def lookup()
+               def queryset
+
+           list_filter =[XXXFilter]
+
+           自定义列表内容
+           overrides
+           def get_queryset()
+
+           自定义静态资源
+           class Media
+
+           自定义Form
+           class XXXForm(forms.ModelForm):
+               fieldname=forms.XXXField()
+
+           class XXXAdmin(admin.ModelAdmin):
+               form = XXXForm
+
+2021.02.16同一页面编辑关联数据
+           class XXXInline(admin.TabularInline):
+               fields = ('field1','field2',...)
+               extra = 1
+               model = xxxModel
+
+           class XXXAdmin(admin.ModelAdmin):
+               inlines = [XXXInline,]
+
+           定制site
+           from django.contrib.admin import AdminSite
+
+           class XXXSite(AdminSite):
+               site_header = 'xxxxx'
+               site_title = 'xxxxx'
+               index_title = 'xxxxx'
+
+           xxx_site = XXXSite(name='xxx_admin')
+
+           reverse('xxx_admin:xxx_xxx_operator')
+
+           admin权限逻辑以SSO登录
+           两种方法：1.自定义AUTHENTICATION_BACKEND
+                   2.重写Django admin提供的接口
+                   has_add_permission
+                   has_change_permission
+                   has_delete_permission
+                   has_module_permission
+
+
+2021.04.20Django软件删除
+          pip install django-softdelete-it

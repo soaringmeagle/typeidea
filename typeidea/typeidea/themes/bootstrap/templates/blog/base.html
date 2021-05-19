@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        .post{
+            margin-bottom:5px;
+        }
+    </style>
+    {% block extra_head %}
+    {% endblock %}
+</head>
+<body>
+    <div class="container head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">首页</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    {% for cate in navs %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'post_list_category' cate.id %}">{{cate.name}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action="/search/" method="GET">
+                    <input class="form-control mr-sm-2" type="search" name="keyword" placeholder="Search" aria-label="Search" value="{{ keyword }}">
+                    <button class="btn btn-outline-success" type="submit">搜索</button>
+                </form>
+
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-4">Typediea</h1>
+            <p class="lead">基于Django的多人博客系统</p>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="row">
+            <div class="col-9 post-list">
+                {% block main %}
+                {% endblock %}
+                {% if page_obj.has_previous %}
+                    <a href="?page={{ page_obj.previous_page_number }}">上一页</a>
+                {% endif %}
+                <span class="current">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</span>
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">下一页</a>
+                {% endif %}
+            </div>
+            <div class="col-3 side-bar">
+                <div class="card-body">
+                    {% for sidebar in sidebars %}
+                        <h4 class="card-title">{{sidebar.title}}</h4>
+                        {{sidebar.content_html}}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <hr/>
+            <nav class="nav category">
+                {% for cate in categories %}
+                    <a href="{% url 'post_list_category' cate.id %}" class="nav-link">{{cate.name}}</a>
+                {% endfor %}
+            </nav>
+        </div>
+        <div class="container power">
+            <span class="text-muted">power by Typeidea@the5fire</span>
+            <span><a href="{% url 'link_list' %}">友情链接</a></span>
+        </div>
+    </footer>
+</body>
+</html>
